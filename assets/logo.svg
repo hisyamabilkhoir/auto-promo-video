@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="24" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="64" y1="64" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Squircle with 10% margin -->
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="url(#bgGrad)" stroke="#34D399" stroke-width="6" stroke-opacity="0.45"/>
+  <!-- Browser Window Top Dots -->
+  <circle cx="64" cy="64" r="6" fill="#F87171"/>
+  <circle cx="84" cy="64" r="6" fill="#FBBF24"/>
+  <circle cx="104" cy="64" r="6" fill="#34D399"/>
+  <line x1="44" y1="84" x2="212" y2="84" stroke="#34D399" stroke-opacity="0.25" stroke-width="3"/>
+  <!-- Play / Motion Clapper Triangle -->
+  <circle cx="128" cy="148" r="42" fill="url(#accentGrad)" fill-opacity="0.18" stroke="#34D399" stroke-width="4"/>
+  <path d="M116 128L150 148L116 168V128Z" fill="url(#accentGrad)"/>
+  <!-- 60FPS Sparkle Badge -->
+  <rect x="148" y="50" width="52" height="24" rx="12" fill="#10B981"/>
+  <text x="174" y="66" fill="#06281E" font-family="Arial, sans-serif" font-weight="900" font-size="13" text-anchor="middle">60FPS</text>
+</svg>

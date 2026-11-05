@@ -46,25 +46,42 @@ flowchart LR
 
 ---
 
-## 🚀 Cara Instalasi
+## 🚀 Cara Instalasi (NPX / Plugin / Skill CLI)
 
-### Opsi 1: Pasang Langsung ke Project (Direkomendasikan)
-Jalankan perintah berikut di terminal root project kamu agar AI Agent langsung mengenali skill ini:
+Kamu bisa menginstal **Auto Promo Video** layaknya library modern menggunakan **`npx`** (tanpa perlu *clone* manual):
+
+### Cara 1: Via `npx` Installer Langsung (Paling Praktis)
+Jalankan perintah berikut di terminal project kamu:
 
 ```bash
-# Untuk Google Antigravity / Gemini Agent
-git clone https://github.com/hisyamabilkhoir/auto-promo-video.git .agent/skills/auto-promo-video
+# 1. Pasang otomatis ke project saat ini (.agent/skills/auto-promo-video)
+npx github:hisyamabilkhoir/auto-promo-video
 
-# Untuk Claude Code
-git clone https://github.com/hisyamabilkhoir/auto-promo-video.git .claude/skills/auto-promo-video
+# 2. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (muncul di menu Customizations -> Plugins)
+npx github:hisyamabilkhoir/auto-promo-video --global
+
+# 3. Pasang khusus untuk Claude Code atau Cursor
+npx github:hisyamabilkhoir/auto-promo-video --claude
+npx github:hisyamabilkhoir/auto-promo-video --cursor
 ```
 
-### Opsi 2: Pasang Secara Global (Bisa Dipakai di Semua Project)
+### Cara 2: Via `npx skills` (Standar Agent Skills CLI)
+Kompatibel penuh dengan ekosistem `skills` CLI:
+
 ```bash
+npx skills add hisyamabilkhoir/auto-promo-video
+```
+
+### Cara 3: Via `git clone` (Alternatif Manual)
+```bash
+# Untuk Project Lokal
+git clone https://github.com/hisyamabilkhoir/auto-promo-video.git .agent/skills/auto-promo-video
+
+# Untuk Global Skill
 git clone https://github.com/hisyamabilkhoir/auto-promo-video.git ~/.gemini/config/skills/auto-promo-video
 ```
 
-> **💡 Catatan Zero-Setup:** Kamu **tidak perlu** menginstal library Python, Chromium, FFmpeg, atau menjalankan `npm install` secara manual. Saat skill ini pertama kali dipanggil, `promo_engine.py` akan mengunduh dan menyiapkan semua dependensi secara otomatis!
+> **💡 Catatan Zero-Setup:** Kamu **tidak perlu** menginstal library Python, Chromium, FFmpeg, atau menjalankan `npm install` secara manual. Saat skill ini pertama kali dipanggil untuk menganalisis atau me-render video, `promo_engine.py` akan mengunduh dan menyiapkan semua dependensi secara otomatis!
 
 ---
 
@@ -197,3 +214,4 @@ Jika skill ini membantu mempercepat pekerjaan kamu, memukau klien, atau menghema
 - 💳 **DANA:** **`085973729267`**
 
 Terima kasih atas dukungannya, dan selamat berkarya! 🚀
+

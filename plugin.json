@@ -1,0 +1,18 @@
+{
+  "name": "auto-promo-video",
+  "displayName": "Auto Promo Video Studio (60FPS)",
+  "version": "1.1.0",
+  "description": "Ubah URL Landing Page menjadi video promosi kualitas studio 60 FPS (Landscape 16:9 & Reels 9:16) dengan Hybrid Playwright + Remotion React, Multi-Clause Prosody Voiceover, dan 124 BPM Groove BGM.",
+  "author": {
+    "name": "Hisyam Abilkhoir (Abyns Studio)",
+    "url": "https://github.com/hisyamabilkhoir"
+  },
+  "repository": "https://github.com/hisyamabilkhoir/auto-promo-video",
+  "homepage": "https://github.com/hisyamabilkhoir/auto-promo-video",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Buatkan video promosi 60 FPS untuk landing page https://school.abynsstudio.com/",
+    "Analisis fitur interaktif website ini dan buatkan video promosi format Reels 9:16",
+    "Render video promo website berdurasi 45 detik dengan voiceover Bahasa Indonesia"
+  ]
+}
