@@ -1,5 +1,6 @@
 # 🎬 Auto Promo Video — AI Agent Skill (Remotion 60FPS Studio Edition)
 
+[![NPM Version](https://img.shields.io/npm/v/auto-promo-video.svg?color=cb3837)](https://www.npmjs.com/package/auto-promo-video)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Renderer: Remotion 4.0](https://img.shields.io/badge/Renderer-Remotion_60FPS-0b84f3.svg)](https://www.remotion.dev/)
 [![Extractor: Playwright](https://img.shields.io/badge/Extractor-Playwright_Chromium-2ead33.svg)](https://playwright.dev/)

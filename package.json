@@ -1,6 +1,6 @@
 {
   "name": "auto-promo-video",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "AI Agent Skill & Antigravity Plugin (Hybrid Playwright + Remotion 60FPS) untuk mengubah URL Landing Page menjadi video promosi kualitas studio 60 FPS lengkap dengan Voiceover Prosody & 124 BPM Groove BGM.",
   "bin": {
     "auto-promo-video": "bin/cli.js"
