@@ -46,33 +46,49 @@ flowchart LR
 
 ---
 
-## 🚀 Cara Instalasi (NPX / Plugin / Skill CLI)
+## 🚀 Cara Instalasi
 
-Kamu bisa menginstal **Auto Promo Video** layaknya library modern menggunakan **`npx`** (tanpa perlu *clone* manual):
+### 🌟 Cara 1: Claude Code & Codex (Plugin Marketplace)
+Kamu bisa menginstalnya langsung dari chat/terminal AI layaknya plugin resmi:
 
-### Cara 1: Via `npx` Installer Langsung (Paling Praktis)
-Jalankan perintah berikut di terminal project kamu:
+**Claude Code** *(jalankan sebagai 2 prompt terpisah di chat)*:
+```text
+/plugin marketplace add hisyamabilkhoir/auto-promo-video
+/plugin install auto-promo-video@auto-promo-video
+```
+
+**Codex**:
+```bash
+codex plugin marketplace add hisyamabilkhoir/auto-promo-video
+codex plugin add auto-promo-video@auto-promo-video
+```
+
+---
+
+### 📦 Cara 2: Via `npx` Installer (Praktis & Otomatis)
+Jalankan salah satu perintah berikut di terminal project kamu:
 
 ```bash
-# 1. Pasang otomatis ke project saat ini (.agent/skills/auto-promo-video)
+# 1. Pasang langsung ke project saat ini (.agent/skills/auto-promo-video)
 npx github:hisyamabilkhoir/auto-promo-video
 
-# 2. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (muncul di menu Customizations -> Plugins)
+# 2. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (aktif di semua project!)
 npx github:hisyamabilkhoir/auto-promo-video --global
 
-# 3. Pasang khusus untuk Claude Code atau Cursor
-npx github:hisyamabilkhoir/auto-promo-video --claude
+# 3. Pasang khusus untuk Cursor
 npx github:hisyamabilkhoir/auto-promo-video --cursor
 ```
 
-### Cara 2: Via `npx skills` (Standar Agent Skills CLI)
-Kompatibel penuh dengan ekosistem `skills` CLI:
+---
 
+### ⚡ Cara 3: Via `npx skills` (Standar Agent Skills CLI)
 ```bash
 npx skills add hisyamabilkhoir/auto-promo-video
 ```
 
-### Cara 3: Via `git clone` (Alternatif Manual)
+---
+
+### 💻 Cara 4: Via `git clone` (Manual)
 ```bash
 # Untuk Project Lokal
 git clone https://github.com/hisyamabilkhoir/auto-promo-video.git .agent/skills/auto-promo-video
