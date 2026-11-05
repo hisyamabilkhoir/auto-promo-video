@@ -70,13 +70,14 @@ Jalankan salah satu perintah berikut di terminal project kamu:
 
 ```bash
 # 1. Pasang langsung ke project saat ini (.agent/skills/auto-promo-video)
-npx github:hisyamabilkhoir/auto-promo-video
+npx auto-promo-video
 
 # 2. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (aktif di semua project!)
-npx github:hisyamabilkhoir/auto-promo-video --global
+npx auto-promo-video --global
 
-# 3. Pasang khusus untuk Cursor
-npx github:hisyamabilkhoir/auto-promo-video --cursor
+# 3. Pasang khusus untuk Claude Code atau Cursor
+npx auto-promo-video --claude
+npx auto-promo-video --cursor
 ```
 
 ---
