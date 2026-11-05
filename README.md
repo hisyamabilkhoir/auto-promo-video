@@ -1,6 +1,7 @@
 # 🎬 Auto Promo Video — AI Agent Skill (Remotion 60FPS Studio Edition)
 
-[![NPM Version](https://img.shields.io/npm/v/auto-promo-video.svg?color=cb3837)](https://www.npmjs.com/package/auto-promo-video)
+[![NPM Package](https://img.shields.io/npm/v/auto-promo-video.svg?logo=npm&color=CB3837)](https://www.npmjs.com/package/auto-promo-video)
+[![NPM Downloads](https://img.shields.io/npm/dt/auto-promo-video.svg?color=2088FF)](https://www.npmjs.com/package/auto-promo-video)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Renderer: Remotion 4.0](https://img.shields.io/badge/Renderer-Remotion_60FPS-0b84f3.svg)](https://www.remotion.dev/)
 [![Extractor: Playwright](https://img.shields.io/badge/Extractor-Playwright_Chromium-2ead33.svg)](https://playwright.dev/)
@@ -66,17 +67,26 @@ codex plugin add auto-promo-video@auto-promo-video
 
 ---
 
-### 📦 Cara 2: Via `npx` Installer (Praktis & Otomatis)
-Jalankan salah satu perintah berikut di terminal project kamu:
+### 📦 Cara 2: Menggunakan NPM / NPX (Instalasi Otomatis)
+Paket ini sudah resmi tersedia di NPM Registry: **[`npm i auto-promo-video`](https://www.npmjs.com/package/auto-promo-video)**.
+
+Kamu bisa menginstal atau menjalankannya langsung di terminal:
 
 ```bash
-# 1. Pasang langsung ke project saat ini (.agent/skills/auto-promo-video)
+# 1. Jalankan langsung sekali jalan via npx (Rekomendasi - Paling Praktis):
 npx auto-promo-video
 
-# 2. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (aktif di semua project!)
+# 2. Atau install secara global di komputer via npm:
+npm install -g auto-promo-video
+auto-promo-video
+
+# 3. Atau install ke dalam dependencies project:
+npm install auto-promo-video
+
+# 4. Pasang sebagai GLOBAL PLUGIN di Google Antigravity (aktif di semua workspace):
 npx auto-promo-video --global
 
-# 3. Pasang khusus untuk Claude Code atau Cursor
+# 5. Pasang khusus untuk Claude Code atau Cursor:
 npx auto-promo-video --claude
 npx auto-promo-video --cursor
 ```
