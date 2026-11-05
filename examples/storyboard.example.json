@@ -1,0 +1,68 @@
+{
+  "url": "https://school.abynsstudio.com/",
+  "duration_preset": 45,
+  "aspect_ratio": "16:9",
+  "language": "id",
+  "voice": "id_female",
+  "subtitles": true,
+  "bgm": true,
+  "output": "promo_school_final.mp4",
+  "scenes": [
+    {
+      "id": "scene_1",
+      "selector": "h1.hero-title",
+      "badge": "SMAN 1 NUSANTARA",
+      "action": "overview",
+      "zoom": 1.24,
+      "voiceover": "Inilah SMAN 1 Nusantara! Rumah bagi generasi cerdas dan berdaya saing."
+    },
+    {
+      "id": "scene_2",
+      "selector": "button.btn-video-pill",
+      "badge": "TUR INTERAKTIF",
+      "action": "highlight_cta",
+      "zoom": 1.48,
+      "voiceover": "Penasaran serunya fasilitas kami? Putar video profilnya hanya satu klik!"
+    },
+    {
+      "id": "scene_3",
+      "selector": "h2.about-title",
+      "badge": "VISI & KARAKTER",
+      "action": "overview",
+      "zoom": 1.30,
+      "voiceover": "Akademik unggul, karakter kuat! Fondasi terbaik masa depan siswa."
+    },
+    {
+      "id": "scene_4",
+      "selector": "div.programs-carousel-outer",
+      "badge": "PROGRAM UNGGULAN",
+      "action": "slide_programs",
+      "zoom": 1.26,
+      "voiceover": "Dari Kelas Riset hingga Robotika—geser dan pilih program impianmu!"
+    },
+    {
+      "id": "scene_5",
+      "selector": "div.prestasi-carousel-outer",
+      "badge": "REKOR JUARA",
+      "action": "slide_prestasi",
+      "zoom": 1.28,
+      "voiceover": "Ratusan medali provinsi hingga nasional! Bukti nyata mental juara."
+    },
+    {
+      "id": "scene_6",
+      "selector": "h2.alumni-title",
+      "badge": "JEJAK ALUMNI",
+      "action": "overview",
+      "zoom": 1.26,
+      "voiceover": "Lulusan terbaik? Tembus berbagai kampus ternama di seluruh Indonesia!"
+    },
+    {
+      "id": "scene_7",
+      "selector": "a.btn-ppdb",
+      "badge": "DAFTAR SEKARANG",
+      "action": "highlight_cta",
+      "zoom": 1.65,
+      "voiceover": "PPDB resmi dibuka! Klik daftar sekarang dan raih masa depanmu!"
+    }
+  ]
+}

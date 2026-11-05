@@ -1,0 +1,21 @@
+# Node & Remotion build/cache
+remotion_app/node_modules/
+remotion_app/public/
+remotion_app/package-lock.json
+
+# Python & Engine temp directories
+.tmp_promo_build/
+scripts/.setup_complete
+scripts/.setup_remotion_complete
+__pycache__/
+*.pyc
+
+# Generated outputs
+*.mp4
+*.srt
+analysis.json
+storyboard.json
+
+# OS files
+.DS_Store
+Thumbs.db
